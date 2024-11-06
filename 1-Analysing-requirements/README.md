@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="images/1.png" alt="Description of image" width="300">
+</p>
+
+
 # 1- Analysing Requirements
 
 This user story outlines the specifications for building two dashboards using Tableau to help stakeholders, including sales managers and executives to analyze sales performance and customers.
