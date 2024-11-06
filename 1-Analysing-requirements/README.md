@@ -1,7 +1,7 @@
 # 1- Analysing Requirements
 
 <p align="center">
-  <img src="../images/1.png" alt="Description of image" width="80%">
+  <img src="../images/step1.png" alt="Description of image" width="80%">
 </p>
 
 ## Sales Dashboard | Requirements
@@ -26,9 +26,7 @@ The purpose of sales dashboard is to present an overview of the sales metrics an
 * Display the average weekly values
 * Highlight weeks that are above and below the average to draw attention to sales & profit performance
 
-<p align="center">
-  <img src="../images/2.png" alt="Description of image" width="80%">
-</p>
+
 
 ## Customer Dashboard | Requirements
 
@@ -62,3 +60,11 @@ The customer dashboard aims to provide an overview of customer data, trends and 
 ### Data Filters
 
 Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
+
+<p align="center">
+  <img src="../images/1.png" alt="Description of image" width="80%">
+</p>
+
+<p align="center">
+  <img src="../images/2.png" alt="Description of image" width="80%">
+</p>
