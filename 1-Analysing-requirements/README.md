@@ -53,11 +53,11 @@ The customer dashboard aims to provide an overview of customer data, trends and 
 ## Design & Interactivity | Requirements
 
 ### Dashboard Dynamic
- – The Dashboard should allow users to check historical data by offering them the flexibility to select any desired year.
+ * The Dashboard should allow users to check historical data by offering them the flexibility to select any desired year.
 
- – Provide users with the ability to navigate between the dashboards easily.
+ * Provide users with the ability to navigate between the dashboards easily.
 
- – Make the charts and graphs interactive, enabling users to filter data using the charts
+ * Make the charts and graphs interactive, enabling users to filter data using the charts
 
 ### Data Filters
 
