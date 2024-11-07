@@ -10,14 +10,14 @@ This README provides an overview of the project steps. You can explore each sect
 
 ## Project Steps
 
-* [Analyzing Requirements](./1-Analysing-requirements/README.md)
+* [Analyzing Requirements](./1-Analysing-requirements/README.md)<br>
 We begin by gathering and defining the requirements for the dashboard. This involves understanding the data's purpose, choosing appropriate visualization types, drawing initial mockups, and selecting a color scheme that enhances readability and user engagement.
 
-* [Building the Data Sources](./2-Building-data-sources/README.md)
+* [Building the Data Sources](./2-Building-data-sources/README.md)<br>
 We connect to the data source and prepare it for visualization. This includes creating a data model, renaming fields, checking data types, and ensuring you have a clear understanding of the data's structure.
 
-* [Building the Charts](./3-Building-charts/README.md)
+* [Building the Charts](./3-Building-charts/README.md)<br>
 We start constructing charts based on the requirements. This step includes creating calculated fields, formatting charts, and refining the layout by removing unnecessary elements, adjusting colors, and enhancing tooltips.
 
-* [Building the Dashboards](./4-Building-dashboard/README.md)
+* [Building the Dashboards](./4-Building-dashboard/README.md)<br>
 We assemble the dashboard by organizing charts, adding interactive filters, and formatting the layout. This step involves refining the design to ensure a user-friendly and visually appealing final product.
