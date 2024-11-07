@@ -4,6 +4,7 @@
   <img src="../images/step1.png" alt="Description of image" width="80%">
 </p>
 
+## 1.1 Collecting Requirements
 ## Sales Dashboard | Requirements
 
 ### Dashboard Purpose
@@ -60,6 +61,12 @@ The customer dashboard aims to provide an overview of customer data, trends and 
 ### Data Filters
 
 Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
+
+## 1.2 Choosing the right charts
+
+For displaying KPI metrics such as total sales, profit, and quantity, we’ll use BANs (Big Ass Numbers) to highlight these key figures prominently. Sparklines will show monthly trends for sales and customer data, providing a quick view of fluctuations over time. For comparing categories or subcategories, Bar Charts offer a clear comparison across different product groups. To visualize the distribution of customer orders, we’ll use a Histogram to show customer behavior patterns. For ranking top customers by profit, a Ranked Table or Horizontal Bar Chart will provide an organized view with additional details. Finally, Line Charts with reference lines or markers will help highlight weekly sales and profit trends, showing performance against averages. Interactive filters will be added to enable users to explore the data dynamically, enhancing engagement and usability.
+
+## 1.3 Drawing mockups
 
 <p align="center">
   <img src="../images/1.png" alt="Description of image" width="80%">
