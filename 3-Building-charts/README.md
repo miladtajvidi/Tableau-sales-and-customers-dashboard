@@ -7,10 +7,10 @@
 
 ## 3.1 Creating calculated fields & test
 
-```SQL
+```
   IF YEAR([Order Date]) = 2023 THEN [Sales]
   END
-```
+
 
 ## 3.2 Building the charts
 
