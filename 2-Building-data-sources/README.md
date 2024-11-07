@@ -11,6 +11,15 @@
 
 ## 2.2 Creating the Data Model
 
+💡 ***Tip*** Always start with the fact table to build the data model. 
+
+<p align="center">
+  <img src="../images/data_model.png" alt="Description of image" width="80%">
+</p>
+
+
+📌 ***Note*** Keep the performane options at default, adjust only for poor Tableau performae.
+
 ## 2.3 Renaming Fields/Tables
 
 ## 2.4 Checking Data Types
