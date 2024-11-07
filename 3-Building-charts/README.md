@@ -11,7 +11,18 @@
   IF YEAR([Order Date]) = 2023 THEN [Sales]
   END
 ```
-
+```
+  IF YEAR([Order Date]) = 2022 THEN [Sales]
+  END
+```
+```
+  IF YEAR([Order Date]) = [Select Year] THEN [Sales]
+  END
+```
+```
+  IF YEAR([Order Date]) = [Select Year]-1 THEN [Sales]
+  END
+```
 ## 3.2 Building the charts
 
 ## 3.3 Formatting
