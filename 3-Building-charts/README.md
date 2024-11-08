@@ -6,7 +6,7 @@
 
 We start with creating the first ban chart for Total Sales. The procedure will be similar for Total Profit & Total Quantity bans.
 <p align="center">
-  <img src="../images/ban.png" alt="Description of image" width="40%">
+  <img src="../images/bans.png" alt="Description of image" width="40%">
 </p>
 
 ## 3.1 Creating calculated fields & test
