@@ -9,12 +9,21 @@ We start with creating the first ban chart for Total Sales. The procedure will b
   <img src="../images/bans.png" alt="Description of image" width="40%">
 </p>
 
+By dropping Sales in the Text Marks and selecting Order Date as our rows, we see that we have the total sales for years 2020 to 2023.
+<p align="center">
+  <img src="../images/3.1.png" alt="Description of image" width="40%">
+</p>
+
 ## 3.1 Creating calculated fields & test
+
+We will create a calculated field regarding the KPI requirements so that we can only have the sales of the current year. We'll call this 'CY Sales' and we define it as follows:
 
 ```
   IF YEAR([Order Date]) = 2023 THEN [Sales]
   END
 ```
+We can create a similar calculated field for the sales of the previous year. We'll call this 'PY Sales' and define it accordingly:
+
 ```
   IF YEAR([Order Date]) = 2022 THEN [Sales]
   END
