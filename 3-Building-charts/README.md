@@ -4,6 +4,10 @@
   <img src="../images/step3.png" alt="Description of image" width="80%">
 </p>
 
+We start with creating the first ban chart for Total Sales. The procedure will be similar for Total Profit & Total Quantity bans.
+<p align="center">
+  <img src="../images/ban.png" alt="Description of image" width="40%">
+</p>
 
 ## 3.1 Creating calculated fields & test
 
@@ -15,6 +19,13 @@
   IF YEAR([Order Date]) = 2022 THEN [Sales]
   END
 ```
+
+```
+  YEAR([Order Date])
+```
+
+
+
 ```
   IF YEAR([Order Date]) = [Select Year] THEN [Sales]
   END
@@ -27,6 +38,8 @@
 ```
   (SUM([CY Sales]) - SUM([PY Sales])) / SUM([PY Sales])
 ```
+
+▲ 0.00%; ▼ -0.00%;
 
 ```
   IF SUM([CY Sales]) = WINDOW_MAX(SUM([CY Sales]))
