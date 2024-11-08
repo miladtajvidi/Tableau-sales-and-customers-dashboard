@@ -34,7 +34,7 @@ We can create a similar calculated field for the sales of the previous year. We'
 ```
 
 <p align="center">
-  <img src="../images/3.3" alt="Description of image" width="40%">
+  <img src="../images/3.3.png" alt="Description of image" width="40%">
 </p>
 
 Now, how can we make the dashboard dynamic? By using parameters to allow users to check historical data to select any desired year.
