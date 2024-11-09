@@ -171,3 +171,50 @@ Min #ff5500
   <img src="../images/3.10.png" alt="Description of image" width="40%">
 </p>
 
+### 3.2.1 Creating Calculated Fields & Tests 
+
+*** Note *** Typically, only first chart requires a lot of creation of calculated fields.
+
+In our case, we can jump into building the subcategory comparison charts.
+
+### 3.2.2 Building Charts
+
+We can easily create the bar-in-bar charts by dragging 'SUM(PY Sales)' and 'SUM(CY Sales)' to our rows and 'Sub-Category' to our columns. We then need to use dual axis and synchronize their axis. We can also add our 'SUM(CY Profit)' to have our current year profit chart next to our sales bar-in-bar chart.
+
+### 3.2.3 Formatting
+
+We can add a custom icon next to each sub-category where our current year sales is less than the previous year sales. Well define a calculated field called 'KPI CY Less PY' as follows:
+
+```
+  IF SUM([CY Sales]) < SUM([PY Sales]) THEN '⬤'
+  ELSE ''
+  END
+```
+
+We now only need to drop AGG(KPI CY Less PY) to our rows to see which categories are underperforming. We can sort the comparisons descending based on the 'CY Sales'.
+
+<p align="center">
+  <img src="../images/3.11.png" alt="Description of image" width="40%">
+</p>
+
+
+### 3.2.4 Tooltip
+
+We can edit the tooltip using the following attributes:
+
+```
+  Sub-Category: <Sub-Category>
+  Sales of <ATTR(Current Year)>:  <SUM(CY Sales)>
+  Sales of <ATTR(Previous Year)>: <SUM(PY Sales)>
+  % Diff Sales: <AGG(% Diff Sales)>
+  Profit of <ATTR(Current Year)>: <SUM(CY Profit)>
+
+```
+
+<p align="center">
+  <img src="../images/3.12.png" alt="Description of image" width="40%">
+</p>
+
+
+## 3.3 Weekly Trends for Sales and Profit
+
