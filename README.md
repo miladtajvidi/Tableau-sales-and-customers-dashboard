@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/3.png" alt="Description of image" width="80%">
+  <img src="./images/home.png" alt="Description of image" width="80%">
 </p>
 
 # Tableau Sales and Customers Dashboard
