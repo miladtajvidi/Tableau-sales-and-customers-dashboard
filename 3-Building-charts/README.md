@@ -218,3 +218,27 @@ We can edit the tooltip using the following attributes:
 
 ## 3.3 Weekly Trends for Sales and Profit
 
+<p align="center">
+  <img src="../images/3.13.png" alt="Description of image" width="40%">
+</p>
+
+### 3.3.1 Building Charts
+### 3.3.2 Formatting
+
+```
+  IF SUM([CY Sales]) > WINDOW_AVG(SUM([CY Sales]))
+  THEN 'above'
+  ELSE 'below'
+  END
+```
+
+```
+  above: #1da2d0
+  below: #ff5500
+```
+
+### 3.3.3 Tooltip
+
+```
+  
+```
