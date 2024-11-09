@@ -1,5 +1,7 @@
 # 3- Building Charts
 
+## ** 3.1 KPI Overview and Sales Trends **
+
 <p align="center">
   <img src="../images/step3.png" alt="Description of image" width="80%">
 </p>
@@ -14,7 +16,7 @@ By dropping Sales in the Text Marks and selecting Order Date as our rows, we see
   <img src="../images/3.1.png" alt="Description of image" width="40%">
 </p>
 
-## 3.1 Creating calculated fields & test
+### 3.1.1 Creating calculated fields & test
 
 We will create a calculated field regarding the KPI requirements so that we can only have the sales of the current year. We'll call this 'CY Sales' and we define it as follows:
 
@@ -85,7 +87,7 @@ We can provide the following custom format for difference percentage KPI:
 
 
 
-## 3.2 Building the charts
+### 3.1.2 Building the charts
 
 🛑*** Problem *** Continuous measures in visualization leads to a range of values in the title.
 
@@ -127,21 +129,28 @@ Everything is back to normal now!
 </p>
 
 
-## 3.3 Formatting
+### 3.1.3 Formatting
 
-### 3.3.1 Removing Lines & Grids
-### 3.3.2 Cleaning up Axis & Headers
-### 3.3.3 Coloring
-### 3.3.4 Tooltip
+#### 3.1.3.1 Removing Lines & Grids
+#### 3.1.3.2 Cleaning up Axis & Headers
 
 💡*** Minimalism is key *** Excessive info on dashboard can distract users from the important data.
 
+#### 3.1.3.3 Coloring
+#### 3.1.3.4 Tooltip
+
+
+
 💡*** Tip *** Add your design colors to the 'Custom Colors' to reuse them in all charts.
+
+Colors:
 
 CY Sales #212121
 PY Sales #cecece
 Max #1da2d0
 Min #ff5500
+
+* We'll edit the tooltip for nicer formatting as follows:
 
 ```
   Sales of <MONTH(Order Date)>,<ATTR(Current Year)>:<SUM(CY Sales)>
@@ -151,3 +160,14 @@ Min #ff5500
 ```
 
 🗒️ *** Note *** Use tabs between values for alignment in tooltips.
+
+<p align="center">
+  <img src="../images/3.9.png" alt="Description of image" width="40%">
+</p>
+
+## ** 3.2 Product Subcategory Comparison **
+
+<p align="center">
+  <img src="../images/3.10.png" alt="Description of image" width="40%">
+</p>
+
