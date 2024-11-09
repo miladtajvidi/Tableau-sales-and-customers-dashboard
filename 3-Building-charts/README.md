@@ -240,5 +240,24 @@ We can edit the tooltip using the following attributes:
 ### 3.3.3 Tooltip
 
 ```
-  
+  Nr. of Week:  <WEEK(Order Date)>
+  Sales of <ATTR(Current Year)>:  <SUM(CY Sales)>
+  <AGG(KPI Sales Avg)> the average
+  Profit of <ATTR(Current Year)>: <SUM(CY Profit)>
+  <AGG(KPI Profit Avg)> the average
+
 ```
+
+<p align="center">
+  <img src="../images/3.17.png" alt="Description of image" width="40%">
+</p>
+
+<p align="center">
+  <img src="../images/3.18.png" alt="Description of image" width="40%">
+</p>
+
+
+<p align="center">
+  <img src="../images/3.19.png" alt="Description of image" width="40%">
+</p>
+
